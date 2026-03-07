@@ -358,6 +358,17 @@ img {
   cursor: pointer;
 }
 
+.nav-logo-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  transition: all var(--transition-fast);
+}
+
+.nav-logo:hover .nav-logo-img {
+  transform: scale(1.05);
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -1268,6 +1279,17 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.footer-logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  transition: all var(--transition-fast);
+}
+
+.footer-logo:hover .footer-logo-img {
+  transform: scale(1.05);
 }
 
 .footer-links {

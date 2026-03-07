@@ -1,3 +1,7 @@
+git add .
+git commit -m "fix api url"
+git push
+
 # 🚀 Portfolio Website — Setup Guide (Beginner Friendly)
 
 This guide will walk you through setting up and running your portfolio website step by step.
@@ -9,6 +13,7 @@ This guide will walk you through setting up and running your portfolio website s
 You need these installed on your computer:
 
 ### 1. Install Node.js
+
 1. Go to [https://nodejs.org](https://nodejs.org)
 2. Download the **LTS** (Long Term Support) version
 3. Run the installer — click "Next" through everything
@@ -36,6 +41,7 @@ This is **FREE** and doesn't require installing anything on your computer.
 5. Click **"Create Cluster"** — wait 2-3 minutes
 
 #### Get your Connection String:
+
 1. In the left sidebar, click **"Database"**
 2. Click **"Connect"** on your cluster
 3. Choose **"Connect your application"**
@@ -47,12 +53,14 @@ This is **FREE** and doesn't require installing anything on your computer.
 6. Replace `yourPassword` with the password you set
 
 #### Set up Database Access:
+
 1. Go to **"Database Access"** in the left sidebar
 2. Click **"Add New Database User"**
 3. Choose a username and password (remember these!)
 4. Click **"Add User"**
 
 #### Allow your IP Address:
+
 1. Go to **"Network Access"** in the left sidebar
 2. Click **"Add IP Address"**
 3. Click **"Allow Access from Anywhere"** (for development)
@@ -92,26 +100,34 @@ PORT=5000
 ## 🏃 Running the Project
 
 ### Step 1: Start the Backend Server
+
 Open a terminal/PowerShell, navigate to the server folder:
+
 ```bash
 cd "C:\Users\patel\Desktop\TUSHAR PORTFOLIO\server"
 npm install
 npm start
 ```
+
 You should see:
+
 ```
 ✅ Connected to MongoDB successfully!
 🚀 Server running at http://localhost:5000
 ```
 
 ### Step 2: Start the Frontend (in a new terminal)
+
 Open another terminal/PowerShell:
+
 ```bash
 cd "C:\Users\patel\Desktop\TUSHAR PORTFOLIO\client"
 npm install
 npm run dev
 ```
+
 You should see:
+
 ```
   VITE v6.x.x  ready in xxx ms
 
@@ -119,6 +135,7 @@ You should see:
 ```
 
 ### Step 3: Open in Browser
+
 Go to **http://localhost:5173/** in your browser 🎉
 
 ---
@@ -144,6 +161,7 @@ Go to **http://localhost:5173/** in your browser 🎉
 ## 🌐 Deploying to the Web (Free!)
 
 ### Frontend → Vercel
+
 1. Push your code to GitHub
 2. Go to [https://vercel.com](https://vercel.com) and sign in with GitHub
 3. Click **"New Project"** → select your repo
@@ -151,6 +169,7 @@ Go to **http://localhost:5173/** in your browser 🎉
 5. Click **Deploy** — your site will be live in minutes!
 
 ### Backend → Render
+
 1. Go to [https://render.com](https://render.com) and sign in with GitHub
 2. Click **"New Web Service"** → select your repo
 3. Set **Root Directory** to `server`
@@ -160,7 +179,9 @@ Go to **http://localhost:5173/** in your browser 🎉
 7. Click **Deploy**
 
 ### Update Frontend API URL
+
 After deploying the backend to Render, update the API URL in your Contact component:
+
 1. Open `client/src/components/Contact.jsx`
 2. Change `http://localhost:5000` to your Render URL (e.g., `https://your-app.onrender.com`)
 
@@ -169,6 +190,7 @@ After deploying the backend to Render, update the API URL in your Contact compon
 ## 🔗 Updating Your Social Links
 
 Open `client/src/components/Contact.jsx` and `client/src/components/Footer.jsx` to update:
+
 - **LinkedIn**: Replace `linkedin.com/in/Tushar` with your actual profile URL
 - **GitHub**: Replace `github.com/Tushar` with your actual GitHub URL
 - **LeetCode**: Replace `leetcode.com/Tushar` with your actual LeetCode URL
@@ -204,13 +226,13 @@ TUSHAR PORTFOLIO/
 
 ## ❓ Common Issues
 
-| Problem | Solution |
-|---------|----------|
-| `npm: command not found` | Reinstall Node.js from nodejs.org |
-| `MongoDB connection error` | Check your `.env` file and make sure your Atlas IP is whitelisted |
-| `CORS error in browser` | Make sure the backend is running on port 5000 |
-| `Contact form doesn't work` | Backend must be running. Check terminal for errors |
-| `Page is blank` | Check browser console (F12) for errors |
+| Problem                     | Solution                                                          |
+| --------------------------- | ----------------------------------------------------------------- |
+| `npm: command not found`    | Reinstall Node.js from nodejs.org                                 |
+| `MongoDB connection error`  | Check your `.env` file and make sure your Atlas IP is whitelisted |
+| `CORS error in browser`     | Make sure the backend is running on port 5000                     |
+| `Contact form doesn't work` | Backend must be running. Check terminal for errors                |
+| `Page is blank`             | Check browser console (F12) for errors                            |
 
 ---
 

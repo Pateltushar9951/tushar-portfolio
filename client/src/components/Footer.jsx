@@ -28,7 +28,9 @@ export default function Footer() {
         <footer className="footer">
             <div className="container">
                 <div className="footer-content">
-                    <div className="footer-logo">{'<TP />'}</div>
+                    <div className="footer-logo">
+                        <img src="/tp-logo.svg" alt="TP Logo" className="footer-logo-img" />
+                    </div>
 
                     <div className="footer-links">
                         {footerLinks.map((link) => (

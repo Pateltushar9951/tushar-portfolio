@@ -47,7 +47,7 @@ export default function Navbar() {
         >
             <div className="container">
                 <div className="nav-logo" onClick={() => handleClick('#home')}>
-                    {'<TP />'}
+                    <img src="/tp-logo.svg" alt="TP Logo" className="nav-logo-img" />
                 </div>
 
                 <div className={`nav-links ${menuOpen ? 'open' : ''}`}>

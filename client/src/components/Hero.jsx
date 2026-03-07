@@ -99,7 +99,7 @@ export default function Hero() {
                     </div>
                     <div className="hero-floating-badge badge-1">🤖 n8n Automations</div>
                     <div className="hero-floating-badge badge-2">⚡ AI-Powered Dev</div>
-                    <div className="hero-floating-badge badge-3">🚀 Full Stack</div>
+                    <div className="hero-floating-badge badge-3">🚀 Full Stack Dev</div>
                 </motion.div>
             </div>
 
