@@ -91,7 +91,11 @@ export default function Hero() {
                 >
                     <div className="hero-avatar-container">
                         <div className="hero-avatar-ring"></div>
-                        <div className="hero-avatar-bg">👨‍💻</div>
+                        <img 
+                            src="/tushar-photo.jpg" 
+                            alt="Tushar Patel" 
+                            className="hero-avatar"
+                        />
                     </div>
                     <div className="hero-floating-badge badge-1">🤖 n8n Automations</div>
                     <div className="hero-floating-badge badge-2">⚡ AI-Powered Dev</div>
