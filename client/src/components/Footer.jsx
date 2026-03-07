@@ -59,7 +59,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-bottom">
-                    © {new Date().getFullYear()} Tushar Patel. Crafted with AI ✨
+                    © {new Date().getFullYear()} Tushar Patel. All rights reserved.
                 </div>
             </div>
         </footer>
