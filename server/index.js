@@ -163,14 +163,12 @@ const startServer = async () => {
     await mongoose.connect(mongoURI);
     console.log('✅ Connected to MongoDB successfully!');
 
-    const PORT = process.env.PORT || 5000;
-
    const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
-  } catch (err) {
+    app.listen(PORT, () => {
+      console.log(`Server running on port ${PORT}`);
+    });
+} catch (err) {
     console.error('❌ MongoDB connection error:', err.message);
     console.log('');
     console.log('💡 Make sure MongoDB is running or your MONGO_URI in .env is correct.');
