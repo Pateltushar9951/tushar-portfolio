@@ -59,7 +59,7 @@ export default function Contact() {
         e.preventDefault();
         setStatus('sending');
         try {
-            await axios.post('http://localhost:5000/api/contact', form);
+            await axios.post('https://tushar-portfolio-9jkm.onrender.com/api/contact', form);
             setStatus('sent');
             setForm({ name: '', email: '', message: '' });
             setTimeout(() => setStatus('idle'), 5000);
