@@ -344,7 +344,14 @@ img {
 .navbar .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .nav-logo {

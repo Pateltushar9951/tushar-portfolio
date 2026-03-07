@@ -50,16 +50,19 @@ export default function Navbar() {
                     <img src="/tp-logo.svg" alt="TP Logo" className="nav-logo-img" />
                 </div>
 
-                <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
-                    {navItems.map((item) => (
-                        <div
-                            key={item.href}
-                            className={`nav-link ${active === item.href ? 'active' : ''}`}
-                            onClick={() => handleClick(item.href)}
-                        >
-                            {item.label}
-                        </div>
-                    ))}
+                <div className="nav-center">
+                    <div className={`nav-links ${menuOpen ? 'open' : ''}`}>
+                        {navItems.map((item) => (
+                            <div
+                                key={item.href}
+                                className={`nav-link ${active === item.href ? 'active' : ''}`}
+                                onClick={() => handleClick(item.href)}
+                            >
+                                {item.label}
+                            </div>
+                        ))}
+                    </div>
+
                     <a
                         className="nav-cta"
                         href="#contact"
