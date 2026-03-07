@@ -13,9 +13,9 @@ const footerLinks = [
 ];
 
 const socials = [
-    { icon: <FaLinkedinIn />, href: 'https://linkedin.com/in/Tushar', label: 'LinkedIn' },
-    { icon: <FaGithub />, href: 'https://github.com/Tushar', label: 'GitHub' },
-    { icon: <SiLeetcode />, href: 'https://leetcode.com/Tushar', label: 'LeetCode' },
+    { icon: <FaLinkedinIn />, href: 'https://www.linkedin.com/in/tushar-patel-15p11t75/', label: 'LinkedIn' },
+    { icon: <FaGithub />, href: 'https://github.com/Pateltushar9951', label: 'GitHub' },
+    { icon: <SiLeetcode />, href: 'https://leetcode.com/u/pateltushar9951/', label: 'LeetCode' },
     { icon: <HiOutlineMail />, href: 'mailto:pateltushar9951@gmail.com', label: 'Email' },
 ];
 

@@ -35,19 +35,19 @@ const contactLinks = [
         icon: <FaLinkedinIn />,
         label: 'LinkedIn',
         value: 'linkedin.com/in/Tushar',
-        href: 'https://linkedin.com/in/Tushar',
+        href: 'https://www.linkedin.com/in/tushar-patel-15p11t75/',
     },
     {
         icon: <FaGithub />,
         label: 'GitHub',
         value: 'github.com/Tushar',
-        href: 'https://github.com/Tushar',
+        href: 'https://github.com/Pateltushar9951',
     },
     {
         icon: <SiLeetcode />,
         label: 'LeetCode',
         value: 'leetcode.com/Tushar',
-        href: 'https://leetcode.com/Tushar',
+        href: 'https://leetcode.com/u/pateltushar9951/',
     },
 ];
 
