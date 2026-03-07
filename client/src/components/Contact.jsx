@@ -138,7 +138,7 @@ export default function Contact() {
                                 className="form-input"
                                 type="text"
                                 id="name"
-                                placeholder="John Doe"
+                                placeholder="Tushar Patel"
                                 value={form.name}
                                 onChange={(e) => setForm({ ...form, name: e.target.value })}
                                 required
@@ -152,7 +152,7 @@ export default function Contact() {
                                 className="form-input"
                                 type="email"
                                 id="email"
-                                placeholder="john@example.com"
+                                placeholder="pateltushar9951@gmail.com"
                                 value={form.email}
                                 onChange={(e) => setForm({ ...form, email: e.target.value })}
                                 required
