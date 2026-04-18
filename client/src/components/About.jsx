@@ -86,21 +86,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7, delay: 0.2 }}
-          >
-            <div className="edu-card glass-card">
-              <div className="edu-degree">🎓 MCA – Artificial Intelligence</div>
-              <div className="edu-school">Parul University, Vadodara</div>
-              <div className="edu-info">Expected 2026 · CGPA: 7.03 / 10</div>
-            </div>
-
-            <div className="edu-card glass-card">
-              <div className="edu-degree">
-                📚 BCA – Full Stack Web Development
-              </div>
-              <div className="edu-school">Parul University, Vadodara</div>
-              <div className="edu-info">Graduated 2024 · CGPA: 7.66 / 10</div>
-            </div>
-          </motion.div>
+          ></motion.div>
         </div>
       </div>
     </section>
