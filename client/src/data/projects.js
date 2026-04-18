@@ -67,6 +67,7 @@ const projects = [
     techStack: ["HTML", "CSS", "JavaScript", "LocalStorage"],
     teamSize: 1,
     image: "💻",
+    link: "https://code-editor-uis4.onrender.com/",
     description:
       "Developed during internship at Calcs Pvt. Ltd. — a browser-based text editor with syntax highlighting support for multiple languages including HTML, CSS, and JavaScript. Features real-time text saving using local storage, line numbering, and other essential editor functionalities for a seamless coding experience.",
   },
