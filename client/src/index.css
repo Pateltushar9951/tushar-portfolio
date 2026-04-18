@@ -1598,20 +1598,32 @@ img {
 
 @media (max-width: 768px) {
   :root {
-    --section-padding: 72px 0;
+    --section-padding: 60px 0;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: clamp(1.45rem, 5vw, 2.2rem);
+  }
+
+  .section-subtitle {
+    font-size: 0.98rem;
   }
 
   .nav-links {
     position: fixed;
     top: 0;
     right: -100%;
-    width: 280px;
+    width: 240px;
     height: 100vh;
     background: var(--bg-secondary);
     border-left: 1px solid var(--border-glass);
     flex-direction: column;
     justify-content: center;
-    padding: 40px;
+    padding: 32px;
     transition: right var(--transition-smooth);
   }
 
@@ -1624,66 +1636,236 @@ img {
     z-index: 1001;
   }
 
+  .nav-center {
+    gap: 12px;
+  }
+
+  .nav-cta {
+    padding: 9px 18px;
+    font-size: 0.8rem;
+  }
+
+  .nav-logo-img {
+    width: 34px;
+    height: 34px;
+  }
+
   .hero-avatar-container {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-avatar,
   .hero-avatar-bg {
-    width: 260px;
-    height: 260px;
+    width: 220px;
+    height: 220px;
   }
 
   .hero-avatar-bg {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .hero-floating-badge {
     display: none;
   }
 
+  .hero-name {
+    font-size: clamp(2.1rem, 8vw, 3rem);
+  }
+
+  .hero-description {
+    font-size: 0.98rem;
+    line-height: 1.7;
+  }
+
+  .hero-buttons .btn-primary,
+  .hero-buttons .btn-outline {
+    padding: 12px 22px;
+    font-size: 0.88rem;
+  }
+
   .about-stats {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
+  .about-text p {
+    font-size: 0.98rem;
   }
 
-  .skills-grid {
-    grid-template-columns: 1fr;
+  .stat-card {
+    padding: 20px 14px;
+  }
+
+  .stat-number {
+    font-size: 1.8rem;
+  }
+
+  .internships-grid,
+  .skills-grid,
+  .projects-grid,
+  .cert-grid {
+    gap: 18px;
+  }
+
+  .internship-card,
+  .skill-category,
+  .cert-item,
+  .project-card-inner,
+  .modal-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .internship-card,
+  .skill-category,
+  .cert-item {
+    padding-top: 22px;
+    padding-bottom: 22px;
+  }
+
+  .project-card-inner {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .project-title {
+    font-size: 1.15rem;
+  }
+
+  .project-desc-preview,
+  .internship-list-item,
+  .modal-description {
+    font-size: 0.88rem;
+  }
+
+  .internship-card-top {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .internship-period {
+    text-align: left;
   }
 
   .modal-content {
-    padding: 32px 24px;
+    padding: 28px 20px;
   }
 
   .section-title {
     font-size: clamp(1.6rem, 5vw, 2.5rem);
   }
+
+  .modal-title {
+    font-size: 1.5rem;
+  }
+
+  .modal-emoji {
+    font-size: 3.3rem;
+  }
 }
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 16px;
+    padding: 0 14px;
+  }
+
+  :root {
+    --section-padding: 52px 0;
+  }
+
+  body {
+    font-size: 15px;
   }
 
   .hero-name {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .hero-title {
+    font-size: 1.15rem;
+  }
+
+  .hero-description {
+    font-size: 0.92rem;
+  }
+
+  .section-header {
+    margin-bottom: 32px;
+  }
+
+  .section-subtitle {
+    font-size: 0.92rem;
+  }
+
+  .about-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-card {
+    padding: 18px 12px;
   }
 
   .stat-number {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+  }
+
+  .project-card-inner,
+  .internship-card,
+  .skill-category,
+  .cert-item,
+  .modal-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .project-card-inner,
+  .internship-card,
+  .skill-category,
+  .cert-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .project-emoji,
+  .modal-emoji {
+    font-size: 2.8rem;
+  }
+
+  .project-stack,
+  .skill-tags,
+  .modal-stack {
+    gap: 8px;
+  }
+
+  .project-stack-tag,
+  .skill-tag,
+  .modal-stack-tag {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+
+  .internship-list {
+    padding-left: 18px;
   }
 
   .cert-grid {
     grid-template-columns: 1fr;
   }
 
+  .footer {
+    padding: 36px 0 24px;
+  }
+
   .footer-content {
     flex-direction: column;
     text-align: center;
+    gap: 18px;
+  }
+
+  .footer-links {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
