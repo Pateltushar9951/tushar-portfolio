@@ -775,9 +775,10 @@ img {
 
 .about-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: center;
+  grid-template-columns: minmax(0, 760px);
+  justify-content: center;
+  gap: 40px;
+  align-items: start;
 }
 
 .about-text p {
@@ -785,6 +786,10 @@ img {
   color: var(--text-secondary);
   margin-bottom: 24px;
   line-height: 1.8;
+}
+
+.about-text {
+  width: 100%;
 }
 
 .about-stats {
