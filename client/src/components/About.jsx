@@ -87,17 +87,6 @@ export default function About() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <div className="internship-card glass-card">
-              <div className="internship-title">Front-End Developer Intern</div>
-              <div className="internship-company">Calcs Pvt. Ltd</div>
-              <div className="internship-period">Nov 2023 – Apr 2024</div>
-              <p className="internship-desc">
-                Built a browser-based code editor with syntax highlighting,
-                real-time saving via local storage, and line numbering — gaining
-                hands-on experience in JavaScript development and editor UX.
-              </p>
-            </div>
-
             <div className="edu-card glass-card">
               <div className="edu-degree">🎓 MCA – Artificial Intelligence</div>
               <div className="edu-school">Parul University, Vadodara</div>

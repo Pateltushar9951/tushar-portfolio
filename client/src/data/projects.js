@@ -65,7 +65,7 @@ const projects = [
     title: "Browser-Based Code Editor",
     category: "Developer Tool",
     techStack: ["HTML", "CSS", "JavaScript", "LocalStorage"],
-    teamSize: 1,
+    teamSize: 2,
     image: "💻",
     link: "https://code-editor-uis4.onrender.com/",
     description:
