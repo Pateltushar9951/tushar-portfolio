@@ -1,7 +1,7 @@
 {
-  "name": "tushar-portfolio-server",
+  "name": "intelligent-automation-suite-server",
   "version": "1.0.0",
-  "description": "Backend API for Tushar Patel's Portfolio Website",
+  "description": "Backend API for Intelligent Automation Suite",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -1,11 +1,12 @@
 const projects = [
   {
     id: 1,
-    title: "AI-Powered Workflow Automations",
+    title: "Intelligent Automation Suite",
     category: "Automation",
     techStack: ["n8n", "Webhooks", "APIs", "AI Agents"],
     teamSize: 1,
     image: "🤖",
+    link: "https://aaryom-ias.vercel.app/",
     description:
       "Built multiple intelligent automation workflows using n8n to streamline repetitive tasks. Integrated AI agents, webhooks, and third-party APIs to create end-to-end automated pipelines for data processing, notification systems, and content generation. These automations save hours of manual work daily.",
   },

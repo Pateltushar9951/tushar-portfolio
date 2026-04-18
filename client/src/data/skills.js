@@ -47,7 +47,7 @@ const skills = [
   {
     category: "Programming Languages",
     icon: "💡",
-    items: ["JavaScript", "Python", "Java", "HTML", "CSS"],
+    items: ["JavaScript", "Python", "Java", "HTML5", "CSS3"],
   },
 ];
 
